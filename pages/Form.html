@@ -27,9 +27,71 @@
                 <label class="label text" for="name">Name</label>
                 <input type="text" class="input" id="name" name="name" placeholder="Enter Your Name" required>
             </div>
+<<<<<<< HEAD
             
+=======
+
+            <!----------------------UC3------------------------>
+            <div class="row-content">
+                <label for="profile" class="label text">Profile Image</label>
+                <div class="profile-radio-content">
+                    <label>
+                        <input type="radio" id="profile1" name="profile" value="../assets/profile-images/Eclipse-3.png"
+                            required>
+                        <img class="profile" src="../assets/profile-images/Ellipse -3.png" id="image1" alt="">
+                    </label>
+                    <label>
+                        <input type="radio" id="profile2" name="profile" value="../assets/profile-images/Eclipse-1.png"
+                            required>
+                        <img class="profile" src="../assets/profile-images/Ellipse -1.png" id="image2" alt="">
+                    </label>
+                    <label>
+                        <input type="radio" id="profile3" name="profile" value="../assets/profile-images/Eclipse8.png"
+                            required>
+                        <img class="profile" src="../assets/profile-images/Ellipse -8.png" id="image3" alt="">
+                    </label>
+                    <label>
+                        <input type="radio" id="profile4" name="profile" value="../assets/profile-images -7.png"
+                            required>
+                        <img class="profile" id="image4" src="../assets/profile-images/Ellipse -7.png" alt="">
+                    </label>
+                </div>
+            </div>
+
+            <div class="row-content">
+                <label class="label text" for="gender">Gender</label>
+                <div>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label class="text" for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label class="text" for="female">Female</label>
+                </div>
+            </div>
+            <div class="row-content">
+                <label class="label text" for="department">Department</label>
+                <div>
+                    <input class="checkbox" type="checkbox" id="hr" name="hr" value="HR">
+                    <label class="text" for="hr">HR</label>
+                    <input class="checkbox" type="checkbox" id="sales" name="sales" value="Sales">
+                    <label class="text" for="sales">Sales</label>
+                    <input class="checkbox" type="checkbox" name="finance" id="finance" value="Finance">
+                    <label class="text" for="finance">Finance</label>
+                    <input class="checkbox" type="checkbox" name="engineer" id="engineer" value="Engineer">
+                    <label class="text" for="engineer">Engineer</label>
+                    <input class="checkbox" type="checkbox" name="others" id="others" value="Others">
+                    <label class="text" for="others">Others</label>
+                </div>
+            </div>
+            <div class="row-content">
+                <label class="label text" for="salary">Choose your salary: </label>
+                <input class="input" type="range" name="salary" id="salary" min="300000" step="100" max="500000"
+                    value="400000">
+                <output class="salary-output text" for="salary">400000</output>
+            </div>
+>>>>>>> UC4-Gender_Department_Salary
         </form>
     </div>
     
+    <script src="../js/form.js"></script>
 </body>
 </html>
