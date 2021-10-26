@@ -153,6 +153,14 @@ select {
     background-color: rgb(179, 49, 49);
 }
 
+error-output {
+    margin-left: 10px;
+    font-size: 12px;
+    font-size: 16px;
+    font-style: italic;
+    color: red;
+}
+
 @media only screen and (max-width:960px) {
     .cancelButton{
         margin-left: 0px;
