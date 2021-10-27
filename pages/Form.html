@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,29 +9,25 @@
     <link rel="stylesheet" href="../css/form.css">
     <title>Employee Payroll Form</title>
 </head>
+
 <body>
     <header class="header-content header">
         <div class="logo-content">
-            <img src="../Assets/images/logo.png" alt="Logo">
+            <img src="../assets/images/logo.png" alt="">
             <div>
-                <span class="emp-text">Employee</span>
-                <span class="emp-text emp-payroll">Payroll</span>
+                <span class="emp-text">EMPLOYEE</span>
+                <span class="emp-text emp-payroll">PAYROLL</span>
             </div>
         </div>
     </header>
-
-    <!------------UC2---------------->
     <div class="form-content">
         <form action="#" class="form" onsubmit="save();return false">
             <div class="form-head">Employee Payroll Form</div>
             <div class="row-content">
                 <label class="label text" for="name">Name</label>
-                <input type="text" class="input" id="name" name="name" placeholder="Enter Your Name" required>
+                <input class="input" type="text" id="name" name="name" placeholder="Enter Your Name" required>
                 <error-output class="text-error" for="text"></error-output>
             </div>
-            
-
-            <!----------------------UC3------------------------>
             <div class="row-content">
                 <label for="profile" class="label text">Profile Image</label>
                 <div class="profile-radio-content">
@@ -56,8 +53,6 @@
                     </label>
                 </div>
             </div>
-
-            <!------------------UC4------------------------>
             <div class="row-content">
                 <label class="label text" for="gender">Gender</label>
                 <div>
@@ -70,26 +65,24 @@
             <div class="row-content">
                 <label class="label text" for="department">Department</label>
                 <div>
-                    <input class="checkbox" type="checkbox" id="hr" name="hr" value="HR">
+                    <input type="checkbox" id="hr" name="department" value="HR">
                     <label class="text" for="hr">HR</label>
-                    <input class="checkbox" type="checkbox" id="sales" name="sales" value="Sales">
+                    <input type="checkbox" id="sales" name="department" value="Sales">
                     <label class="text" for="sales">Sales</label>
-                    <input class="checkbox" type="checkbox" name="finance" id="finance" value="Finance">
+                    <input type="checkbox" id="finance" name="department" value="Finance">
                     <label class="text" for="finance">Finance</label>
-                    <input class="checkbox" type="checkbox" name="engineer" id="engineer" value="Engineer">
+                    <input type="checkbox" id="engineer" name="department" value="Engineer">
                     <label class="text" for="engineer">Engineer</label>
-                    <input class="checkbox" type="checkbox" name="others" id="others" value="Others">
+                    <input type="checkbox" id="others" name="department" value="Others">
                     <label class="text" for="others">Others</label>
                 </div>
             </div>
             <div class="row-content">
-                <label class="label text" for="salary">Choose your salary: </label>
+                <label class="label text" for="salary">Choose Your Salary: </label>
                 <input class="input" type="range" name="salary" id="salary" min="300000" step="100" max="500000"
                     value="400000">
                 <output class="salary-output text" for="salary">400000</output>
             </div>
-
-            <!-----------------------------UC5------------------------------------>
             <div class="row-content">
                 <label class="label text" for="startDate">Start Date</label>
                 <div>
@@ -148,8 +141,6 @@
                     </select>
                 </div>
             </div>
-
-            <!------------------UC6----------------------->
             <div class="row-content">
                 <label class="label text" for="notes">Notes</label>
                 <textarea class="input" name="Notes" id="notes" placeholder="" style="height: 100px;"></textarea>
@@ -163,8 +154,8 @@
             </div>
         </form>
     </div>
-    
     <script src="../js/form.js"></script>
     <script src="../js/EmployeePayroll.js"></script>
 </body>
+
 </html>
